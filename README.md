@@ -45,22 +45,14 @@ The dataset was collected from Kaggle: https://www.kaggle.com/datasets/aadarshv
 
 ## Model Performance Comparison
 
-| ML Model Name | Accuracy (%) | AUC | Precision | Recall | F1 Score | MCC |
-|-------------|--------------|-----|----------|--------|---------|-----|
-| Logistic Regression | 0.836 | 0.835 | 0.848 | 0.848 | 0.848 | 0.670 |
-| Decision Tree Classifier | 0.738 | 0.739 | 0.774 | 0.727 | 0.750 | 0.476 |
-| K-Nearest Neighbor Classifier | 0.836 | 0.838 | 0.871 | 0.818 | 0.844 | 0.673 |
-| Naive Bayes (Gaussian) | 0.803 | 0.802 | 0.818 | 0.818 | 0.818 | 0.604 |
-| Random Forest | 0.803 | 0.802 | 0.818 | 0.818 | 0.818 | 0.604 |
-| XGBoost | 0.754 | 0.754 | 0.781 | 0.758 | 0.769 | 0.506 |
-
-ML Model Name	Accuracy (%)	AUC	Precision	Recall	F1 Score	MCC
-Logistic Regression	0.853	0.882	0.792	0.701	0.744	0.642
-Decision Tree Classifier	0.948	0.942	0.897	0.931	0.913	0.879
-K-Nearest Neighbor Classifier	0.874	0.931	0.881	0.689	0.771	0.695
-Naive Bayes (Gaussian)	0.804	0.846	0.709	0.565	0.629	0.503
-Random Forest	0.962	0.983	0.957	0.919	0.938	0.913
-XGBoost	0.951	0.979	0.942	0.894	0.917	0.885
+| ML Model Name               | Accuracy (%) | AUC   | Precision | Recall | F1 Score | MCC   |
+|-----------------------------|--------------|-------|-----------|--------|----------|-------|
+| Logistic Regression         | 0.853        | 0.882 | 0.792     | 0.701  | 0.744    | 0.642 |
+| Decision Tree Classifier    | 0.948        | 0.942 | 0.897     | 0.931  | 0.913    | 0.879 |
+| K-Nearest Neighbor Classifier | 0.874      | 0.931 | 0.881     | 0.689  | 0.771    | 0.695 |
+| Naive Bayes (Gaussian)      | 0.804        | 0.846 | 0.709     | 0.565  | 0.629    | 0.503 |
+| Random Forest               | 0.962        | 0.983 | 0.957     | 0.919  | 0.938    | 0.913 |
+| XGBoost                     | 0.951        | 0.979 | 0.942     | 0.894  | 0.917    | 0.885 |
 
 
 # Heart Disease Prediction Models - Performance Summary
